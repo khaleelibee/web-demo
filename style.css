@@ -1,3 +1,33 @@
-*{
-    box-sizing: border-box;
-}
+    body{
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        }
+        .head{
+            background-color:#8155cd ;
+            display: flex;
+            height: 40px;
+            padding: 0 10px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .head a{
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .head input{
+            flex: 1;
+            height: 25px;
+            margin-left: 55px;
+            margin-right: 50px;
+            max-width: 500px;
+            padding-left: 15px;
+            border: 0;
+            border-radius: 15px;
+        }
+        .head button{
+            background-color: #8155cd;
+            border: 1px solid white ;
+            color: white;
+            height: 30px;
+            padding: 0 10px;
+        }
